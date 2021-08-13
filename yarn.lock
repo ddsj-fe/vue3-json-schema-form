@@ -1681,9 +1681,9 @@
   resolved "https://registry.nlark.com/@vue/cli-overlay/download/@vue/cli-overlay-4.5.13.tgz#4f1fd2161be8f69d6cba8079f3f0d7dc4dee47a7"
   integrity sha1-Tx/SFhvo9p1suoB58/DX3E3uR6c=
 
-"@vue/cli-plugin-babel@~4.5.0":
+"@vue/cli-plugin-babel@~4.5.6":
   version "4.5.13"
-  resolved "https://registry.nlark.com/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-4.5.13.tgz#a89c482edcc4ea1d135645cec502a7f5fd4c30e7"
+  resolved "https://registry.nlark.com/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-4.5.13.tgz?cache=0&sync_timestamp=1628579321178&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fcli-plugin-babel%2Fdownload%2F%40vue%2Fcli-plugin-babel-4.5.13.tgz#a89c482edcc4ea1d135645cec502a7f5fd4c30e7"
   integrity sha1-qJxILtzE6h0TVkXOxQKn9f1MMOc=
   dependencies:
     "@babel/core" "^7.11.0"
@@ -1694,9 +1694,9 @@
     thread-loader "^2.1.3"
     webpack "^4.0.0"
 
-"@vue/cli-plugin-eslint@~4.5.0":
+"@vue/cli-plugin-eslint@~4.5.6":
   version "4.5.13"
-  resolved "https://registry.nlark.com/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-4.5.13.tgz#8baf22d0d96d76720c7506646b96f4f62c05bdfa"
+  resolved "https://registry.nlark.com/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-4.5.13.tgz?cache=0&sync_timestamp=1628579325292&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fcli-plugin-eslint%2Fdownload%2F%40vue%2Fcli-plugin-eslint-4.5.13.tgz#8baf22d0d96d76720c7506646b96f4f62c05bdfa"
   integrity sha1-i68i0NltdnIMdQZka5b09iwFvfo=
   dependencies:
     "@vue/cli-shared-utils" "^4.5.13"
@@ -1713,9 +1713,9 @@
   dependencies:
     "@vue/cli-shared-utils" "^4.5.13"
 
-"@vue/cli-plugin-typescript@~4.5.0":
+"@vue/cli-plugin-typescript@~4.5.6":
   version "4.5.13"
-  resolved "https://registry.nlark.com/@vue/cli-plugin-typescript/download/@vue/cli-plugin-typescript-4.5.13.tgz?cache=0&sync_timestamp=1623216048113&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fcli-plugin-typescript%2Fdownload%2F%40vue%2Fcli-plugin-typescript-4.5.13.tgz#f514f661e16f9096a89a9ca6e69a2d762c6d8464"
+  resolved "https://registry.nlark.com/@vue/cli-plugin-typescript/download/@vue/cli-plugin-typescript-4.5.13.tgz#f514f661e16f9096a89a9ca6e69a2d762c6d8464"
   integrity sha1-9RT2YeFvkJaompym5potdixthGQ=
   dependencies:
     "@types/webpack-env" "^1.15.2"
@@ -1731,9 +1731,9 @@
   optionalDependencies:
     fork-ts-checker-webpack-plugin-v5 "npm:fork-ts-checker-webpack-plugin@^5.0.11"
 
-"@vue/cli-plugin-unit-jest@~4.5.0":
+"@vue/cli-plugin-unit-jest@~4.5.6":
   version "4.5.13"
-  resolved "https://registry.nlark.com/@vue/cli-plugin-unit-jest/download/@vue/cli-plugin-unit-jest-4.5.13.tgz#6aca031452a5883f39580ec50ea926c982e1d138"
+  resolved "https://registry.nlark.com/@vue/cli-plugin-unit-jest/download/@vue/cli-plugin-unit-jest-4.5.13.tgz?cache=0&sync_timestamp=1628579326650&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fcli-plugin-unit-jest%2Fdownload%2F%40vue%2Fcli-plugin-unit-jest-4.5.13.tgz#6aca031452a5883f39580ec50ea926c982e1d138"
   integrity sha1-asoDFFKliD85WA7FDqkmyYLh0Tg=
   dependencies:
     "@babel/core" "^7.11.0"
@@ -1757,9 +1757,9 @@
   resolved "https://registry.nlark.com/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-4.5.13.tgz#98646d8bc1e69cf6c6a6cba2fed3eace0356c360"
   integrity sha1-mGRti8HmnPbGpsui/tPqzgNWw2A=
 
-"@vue/cli-service@~4.5.0":
+"@vue/cli-service@~4.5.6":
   version "4.5.13"
-  resolved "https://registry.nlark.com/@vue/cli-service/download/@vue/cli-service-4.5.13.tgz#a09e684a801684b6e24e5414ad30650970eec9ed"
+  resolved "https://registry.nlark.com/@vue/cli-service/download/@vue/cli-service-4.5.13.tgz?cache=0&sync_timestamp=1628579323125&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vue%2Fcli-service%2Fdownload%2F%40vue%2Fcli-service-4.5.13.tgz#a09e684a801684b6e24e5414ad30650970eec9ed"
   integrity sha1-oJ5oSoAWhLbiTlQUrTBlCXDuye0=
   dependencies:
     "@intervolga/optimize-cssnano-plugin" "^1.0.5"
@@ -7905,6 +7905,13 @@ mkdirp@0.x, mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
   dependencies:
     minimist "^1.2.5"
+
+monaco-editor-webpack-plugin@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.nlark.com/monaco-editor-webpack-plugin/download/monaco-editor-webpack-plugin-4.1.1.tgz?cache=0&sync_timestamp=1626421287395&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmonaco-editor-webpack-plugin%2Fdownload%2Fmonaco-editor-webpack-plugin-4.1.1.tgz#b44127910c8f4a29bde72859a1c4107c2960a939"
+  integrity sha1-tEEnkQyPSim95yhZocQQfClgqTk=
+  dependencies:
+    loader-utils "^2.0.0"
 
 monaco-editor@^0.26.1:
   version "0.26.1"
