@@ -1,7 +1,8 @@
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType, provide, reactive } from "vue";
 
 import { Schema } from "./types";
 import SchemaItem from "./SchemaItem";
+import { SchemaFormContextKey } from "./context";
 
 export default defineComponent({
   props: {
@@ -22,11 +23,21 @@ export default defineComponent({
     const handleChange = (v: any) => {
       props.onChange(v);
     };
+    const context: any = {
+      SchemaItem,
+    };
+
+    provide(SchemaFormContextKey, context);
 
     return () => {
       const { schema, value } = props;
       return (
-        <SchemaItem schema={schema} value={value} onChange={handleChange} />
+        <SchemaItem
+          schema={schema}
+          value={value}
+          onChange={handleChange}
+          rootSchema={schema}
+        />
       );
     };
   },
